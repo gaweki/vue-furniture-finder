@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Finder />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Finder from './pages/Finder.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Finder
   }
 }
 </script>
@@ -23,6 +22,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+body{
+  margin: 0;
 }
 </style>
